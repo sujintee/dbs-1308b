@@ -33,7 +33,7 @@ def index():
         pred2 = model2.predict([[rates]])
         return(render_template("index.html",result1=pred1,result2=pred2))
     else:
-        return(render_template("index.html",result1="test",result2="tes"))
+        return(render_template("index.html",result1="waiting",result2="waiting"))
 
 
 # In[ ]:
